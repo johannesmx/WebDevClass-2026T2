@@ -22,3 +22,22 @@ body {
     color: #EB4E28;
     background-color: cadetblue;
 }
+.banner {
+    background-color: #FCB0B3;
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+    background-image: url("bananas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner h1 {
+    font-size: 400%;
+    color: #B054E9;
+    text-shadow: -3px 13px 10px #2b143a;
+}
+.social a {
+    font-size: 32px;
+    color: #B054E9;
+}

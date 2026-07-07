@@ -27,9 +27,20 @@ body {
     border-radius: 50%;
     margin: 5px;
 }
+#nav-button {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: solid 1px #f6d98f;
+    color: #f6d98f;
+    border-radius: 6px;
+    font-size: 18px;
+    display: none;
+}
 .navigation {
     display: flex;
     flex-flow: row wrap;
+    
 }
  
 .navigation a {

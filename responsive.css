@@ -19,4 +19,7 @@
         min-width: 100%;
         text-align: center;
     }
+    #nav-button {
+        display: block;
+    }
 }

@@ -13,9 +13,12 @@ body {
 .top-header {
     background-color:#252422;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
     justify-content: space-between;
+    flex-flow: row wrap;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .top-header > a{
     width: 100px;
@@ -24,9 +27,10 @@ body {
     border-radius: 50%;
     margin: 5px;
 }
-/* .navigation {
-    transform: translateX(-30%);
-} */
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+}
  
 .navigation a {
     color:#f6d98f;
@@ -61,7 +65,8 @@ body {
     background-color:#252422;
     color:#f6d98f;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     padding: 1em 3em;

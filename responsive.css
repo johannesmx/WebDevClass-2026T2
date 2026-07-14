@@ -36,4 +36,10 @@
     #nav-button {
         display: block;
     }
+    .content {
+        margin: 2em 1em;
+    }
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
 }

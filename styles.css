@@ -40,7 +40,6 @@ body {
 .navigation {
     display: flex;
     flex-flow: row wrap;
-    
 }
  
 .navigation a {

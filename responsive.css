@@ -42,4 +42,7 @@
     .grid-container {
         grid-template-columns: 1fr 1fr;
     }
+    .grid-2-columns {
+        grid-template-columns: 1fr;
+    }
 }
